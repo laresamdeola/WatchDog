@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block body %}
+    <form action="/check" method="POST">
+            <label>What is your age?</label>
+            <input type="number" name="age" placeholder="40" required><br>
+            <label>What is your gender?</label>
+            <input type="text" name="gender" placeholder="male or female" required><br>
+            <label>Do you have Polyuria?</label>
+            <input type="text" name="polyuria" placeholder="yes or no" required><br>
+            <label>Do you have Polydipsia?</label>
+            <input type="text" name="polydipsia" placeholder="yes or no" required><br>
+            <label>Have you lost weight recently?</label>
+            <input type="text" name="weight_loss" placeholder="yes or no" required><br>
+            <label>Do you get tired easily or feel weak frequently?</label>
+            <input type="text" name="weakness" placeholder="yes or no" required><br>
+            <label>Do you have Polyphagia?</label>
+            <input type="text" name="polyphagia" placeholder="yes or no" required><br>
+            <label>Do you have genital thrush or have had it recently?</label>
+            <input type="text" name="genital_thrush" placeholder="yes or no" required><br>
+            <label>Do you sometimes have visual blurring?</label>
+            <input type="text" name="visual_blurring" placeholder="yes or no" required><br>
+            <label>Do you have frequent itching?</label>
+            <input type="text" name="itching" placeholder="yes or no" required><br>
+            <label>Do you have extreme irritability?</label>
+            <input type="text" name="irritability" placeholder="yes or no" required><br>
+            <label>Do your mild injuries take time to heal?</label>
+            <input type="text" name="delayed_healing" placeholder="yes or no" required><br>
+            <label>Do you have paresis?</label>
+            <input type="text" name="paresis" placeholder="yes or no" required><br>
+            <label>Do you have muscle stiffness?</label>
+            <input type="text" name="muscle_stiffness" placeholder="yes or no" required><br>
+            <label>Do you suffer from hair loss?</label>
+            <input type="text" name="alopecia" placeholder="yes or no" required><br>
+            <label>Are you overweight?</label>
+            <input type="text" name="obesity" placeholder="yes or no" required><br>
+            <input type="submit" value="Check" >
+        </form>
+{% endblock %}
+

@@ -1,0 +1,1 @@
+WatchDog is a web app that uses Machine Learning to predict if one has early stage Diabetes or not.The data used to train the classification model was sourced from the UCI Machine Learning Repository.
