@@ -1,0 +1,107 @@
+:root{
+    --watchdog-green: #80BA80;
+    --watchdog-peach: #FFA5A5;
+    --watchdog-cream: #FFDECB;
+    --watchdog-grey: #5E5E5E;
+}
+
+body{
+    background-color: var(--watchdog-cream);
+}
+
+
+/*--------------------------  Landing Page Styles --------------------------*/
+
+.landing h1 a{
+    color: var(--watchdog-green);
+    position: absolute;
+    left: 42.5%;
+    font-family: 'Orelega One', cursive;
+    font-size: 6.5vh;
+    cursor: pointer;
+    top: 50%;
+    text-decoration: none;
+    text-shadow: 0.5px 0 3px var(--watchdog-peach);
+    transition: color 0.5s, text-shadow 0.5s;
+}
+
+.landing h1 a:link{
+    color: var(--watchdog-green);
+    text-decoration: none;
+}
+.landing h1 a:visited{
+    color: var(--watchdog-green);
+    text-decoration: none;
+}
+.landing h1 a:hover{
+    color: var(--watchdog-peach);
+    text-decoration: none;
+    text-shadow: 0.5px 0 3px var(--watchdog-green);
+}
+.landing h1 a:active{
+    color: var(--watchdog-green);
+    text-decoration: none;
+}
+
+
+/*--------------------------  Home Page Styles --------------------------*/
+
+.home-page-form{
+    text-align: center;
+    font-family: 'Orelega One', cursive;
+    font-size: 3.5vh;
+    color: var(--watchdog-grey);
+    margin-top: 7.5%;
+}
+
+.home-page-form input{
+    background-color: var(--watchdog-cream);
+    border: 1px solid var(--watchdog-peach);
+    border-radius: 4px;
+}
+
+.home-logo h1 a{
+    position: absolute;
+    left: 2.75%;
+    top: 4.5%;
+    font-size: 3.5vh;
+}
+
+.hamburger-menu-icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 2.75%;
+    top: 4.5%;
+}
+
+button{
+    background-color: var(--watchdog-cream);
+    border: none;
+}
+
+.watchdog-button{
+    margin-top: 45%;
+    width: 40px;
+    height: 36px;
+    cursor: pointer;
+}
+
+
+/*--------------------------  Check Page Styles --------------------------*/
+
+.text{
+    font-family: 'Orelega One', cursive;
+    font-size: 3.5vh;
+}
+
+.check-result{
+    text-align: center;
+    margin-top: 15%;
+    color: var(--watchdog-grey);
+}
+
+.check-button{
+    margin-left: 48%;
+    margin-top: 0;
+}
