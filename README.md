@@ -43,6 +43,10 @@ The site was built using Python and the Flask Framework. The model for predictin
 
 This classification result is then outputted back to the user.
 
+#### DATA
+
+The data used to train the Machine Learning model was gotten from UCI Repository. You can view the data [here](https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.).
+
 #### CONTRIBUTIONS
 
 At this present stage, ***WATCHDOG*** accepts closed submissions and contributions. If you are interested in contributing or funding the project, you can reach me on:
