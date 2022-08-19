@@ -219,7 +219,7 @@ def diabetes_rate(categories_from_form):
 
     diabetes_train = diabetes_train.ravel()
 
-    # Fitting the Logistic Regression Model
+    # Fitting the KNN Model
 
     classifier.fit(categories_train, diabetes_train)
 
